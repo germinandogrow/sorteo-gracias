@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-color:#301539;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position:relative;
+}
+
+.gracias{
+    height: 90vh;
+}
+
+form{
+    position:absolute;
+    bottom: 30vh;
+}
+
+button{
+    cursor:pointer;
+    background-color: black;
+    border:none;
+    color:aliceblue;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    font-size: 1.2em;
+    transition: all 300ms;
+}
+
+button:hover{
+    background-color: #6de53e;
+}
